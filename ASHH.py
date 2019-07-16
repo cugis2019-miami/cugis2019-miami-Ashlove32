@@ -33,5 +33,70 @@ Subtract(80,60)
 def triangle(b,h):
     triangle= b * h * (1/2)
     print(triangle)
+hey
+"hey"
+helllloooo
+
+
+
+
+def areasquare(a):
+    areasquare= a**2
+    print(areasquare)
     
-    triangle(1/2,2,14)
+areasquare(4)
+
+
+
+
+
+
+
+
+
+
+
+print("box",=5)
+
+
+
+
+
+
+
+
+box = 5+5
+print(box)
+
+
+#choclate types
+d = "dark"
+m = "milk"
+w = "white"
+
+print(d,m,w)
+
+
+"d"= dark
+print("hi Mrs.Amita how are you doing today?")
+
+
+
+m = " Mrs. Amita"
+print("how are you doin today",m,"?")
+
+
+a = "74"
+print("I have",a,"choclate bars !!!")
+
+kim = "5"
+print("I have",kim,"phones")
+import math
+
+dir(math)
+
+math.pow(2,1/4)
+
+
+
+

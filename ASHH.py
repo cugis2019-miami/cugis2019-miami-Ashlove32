@@ -100,3 +100,59 @@ math.pow(2,1/4)
 
 
 
+
+chocolatebox = {"milk":5,"dark":3,"white":8}
+print("the number of white chocolate in chocolate box is",chocolatebox["milk"])
+
+male = "male"
+
+
+
+
+#dict
+classroom1 = {"Steve is 32 year old male"}
+classroom2 = {"Lia is a 28 year old female"}
+classroom3 = {"Vin is a 45 year old male"}
+classroom4 = {"Katie is a 38 year old female"}
+
+import pandas
+dir(pandas)
+
+pandas.Series("hi")
+
+
+classroominfo = pandas.Series(classroom4)
+print(classroominfo)
+classroom4 = {"milk":5,"white":3,"dark":8}
+
+
+
+
+#convert dict
+classroomdata = [classroom4]
+print(classroomdata)
+
+
+classroomdf = pandas.DataFrame(classroomdata)
+print(classroomdf)
+
+age = {"Steve":32,"Lia":28,"Vin":45,"Kate":38}
+Gender = {"Steve":M,"Lia":F,"Vin":M,"Kate":F}
+
+
+#dict
+studentinfo = [['Steve',32,'male'],['Lia',28,'female']]
+df = pandas.DataFrame(studentinfo)
+print(df)
+
+df1 = pandas.DataFrame([studentinfo])
+print(df1)
+
+df12 = pandas.DataFrame([studentinfo], index=["age"])
+print(df12)
+
+df2 = pandas.DataFrame(studentinfo, colums=["name","age","gender"])
+print(df2)
+
+
+
